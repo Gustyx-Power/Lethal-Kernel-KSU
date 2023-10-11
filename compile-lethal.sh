@@ -90,7 +90,7 @@ then
     rm -rf out/outputs/${PHONE}/*
 else
     echo "Build succesful"
-    cp out/arch/arm64/boot/Image.gz-dtb out/outputs/${PHONE}/OLD-DRIVER-SE/Image.gz
+    cp out/arch/arm64/boot/Image.gz-dtb out/outputs/${PHONE}/OLD-DRIVER-SE/Image.gz-dtb
     
     #9.1.24-NSE
     cp arch/arm64/boot/dts/qcom/SE_NSE/NSE/* arch/arm64/boot/dts/qcom/
@@ -101,7 +101,7 @@ else
         rm -rf out/outputs/${PHONE}/9.1.24-NSE/*
     else
         echo "Build succesful"
-        cp out/arch/arm64/boot/Image.gz-dtb out/outputs/${PHONE}/OLD-DRIVER-NSE/Image.gz
+        cp out/arch/arm64/boot/Image.gz-dtb out/outputs/${PHONE}/OLD-DRIVER-NSE/Image.gz-dtb
 
         #10.3.7-SE
         cp firmware/touch_fw_variant/10.3.7/* firmware/
@@ -113,7 +113,7 @@ else
             rm -rf out/outputs/${PHONE}/10.3.7-SE/*
         else
             echo "Build succesful"
-            cp out/arch/arm64/boot/Image.gz-dtb out/outputs/${PHONE}/NEW-DRIVER-SE/Image.gz
+            cp out/arch/arm64/boot/Image.gz-dtb out/outputs/${PHONE}/NEW-DRIVER-SE/Image.gz-dtb
 
             #10.3.7-NSE
             cp arch/arm64/boot/dts/qcom/SE_NSE/NSE/* arch/arm64/boot/dts/qcom/
@@ -124,7 +124,7 @@ else
                 rm -rf out/outputs/${PHONE}/10.3.7-NSE/*
             else
                 echo "Build succesful"
-                cp out/arch/arm64/boot/Image.gz-dtb out/outputs/${PHONE}/NEW-DRIVER-NSE/Image.gz
+                cp out/arch/arm64/boot/Image.gz-dtb out/outputs/${PHONE}/NEW-DRIVER-NSE/Image.gz-dtb
             fi
         fi
     fi
