@@ -7,10 +7,9 @@ PHONE="beryllium"
 ARCH="arm64"
 SUBARCH="arm64"
 DEFCONFIG=lethal_defconfig
-#DEFCONFIG=beryllium_defconfig
 COMPILER=clang
 LINKER=""
-COMPILERDIR="/workspace/DominatingX-Kernel/proton-clang"
+COMPILERDIR="/workspace/Gitpod-Dump/proton-clang13"
 
 # Outputs
 mkdir out/outputs
