@@ -9,7 +9,7 @@ SUBARCH="arm64"
 DEFCONFIG=lethal_defconfig
 COMPILER=clang
 LINKER=""
-COMPILERDIR="/workspace/Gitpod-Dump/proton-clang13"
+COMPILERDIR="/workspace/Gitpod-Dump/proton-clang"
 
 # Outputs
 mkdir out/outputs
